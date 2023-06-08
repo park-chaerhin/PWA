@@ -1,0 +1,51 @@
+{
+    "name":"Hello, PWA",
+    "short_name":"PWA",
+    "description":"start for PWA",
+    "scope":".",
+    "start_url":"./",
+    "display":"fullscreen",
+    "orientation":"portrait",
+    "theme_color":"#fff",
+    "background_color":"#fff",
+    "icons":[
+        {
+            "src":"images/icons/android-chrome-512x512.png",
+            "sizes":"512x512",
+            "type":"image/png"
+        },
+        {
+            "src":"images/icons/android-chrome-192x192.png",
+            "sizes":"192x192",
+            "type":"image/png"
+        }
+    ],
+    "shortcuts":[
+        {
+            "name":"첫 번째 메뉴",
+            "short_name":"MENU 1",
+            "description":"첫 번째 메뉴입니다.",
+            "url":"./",
+            "icons":[
+                {
+                    "src":"images/icons/android-chrome-512x512.png",
+                    "sizes":"512x512",
+                    "type":"image/png"
+                }
+            ]
+        },
+        {
+            "name":"두 번째 메뉴",
+            "short_name":"MENU 2",
+            "description":"두 번째 메뉴입니다.",
+            "url":"./",
+            "icons":[
+                {
+                    "src":"images/icons/android-chrome-512x512.png",
+                    "sizes":"512x512",
+                    "type":"image/png"
+                }
+            ]
+        }
+    ]
+}
